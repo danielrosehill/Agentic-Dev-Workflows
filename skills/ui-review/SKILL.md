@@ -1,6 +1,6 @@
 ---
 name: ui-review
-description: Capture the app's current UI screen by screen, look at it, review it for a stated focus (e.g. simplify the menu), propose changes, then build.
+description: Capture the running UI screen by screen, review it for a stated focus (e.g. simplify the menu), propose changes, then build.
 ---
 
 # UI review: capture, look, review, then build
