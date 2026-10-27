@@ -1,6 +1,6 @@
 ---
 name: voice-intake
-description: First step for any voice note about development work (sprint list, bugs, feature requests, a spec, debugging notes). Fetch it from the saved notes location, a path or a Drive link; transcribe; file the raw and lightly cleaned transcript in the repo; then hand off to the skill that acts on it. Any platform.
+description: Fetch a development voice note (saved location, path or Drive link), transcribe it, file the transcript in the repo, then hand off.
 ---
 
 # Voice intake: voice note in, transcript in the repo, next skill out
@@ -18,7 +18,8 @@ comes next: `sprint-decomposition`, `ui-friction`, a bug-capture skill, a spec s
 
 ## Saved settings
 
-Per-user, outside any repo: `~/.config/agentic-dev-workflows/voice-intake.json`. Format and how
+Per-user, outside any repo: `${CLAUDE_USER_DATA:-${XDG_DATA_HOME:-$HOME/.local/share}/claude-plugins}/agentic-dev-workflows/config.json`, under the key
+`voice_intake`. Format and how
 to fill it: [references/settings.md](references/settings.md). It holds where the user keeps
 development voice notes, which transcription route to use, and whether audio goes into repos.
 

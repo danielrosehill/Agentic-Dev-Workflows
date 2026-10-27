@@ -1,6 +1,6 @@
 ---
 name: screenshot-steering
-description: User shares screenshots (pasted, paths, or a Google Photos album by name) to steer the work, "this is what's wrong", "this is fixed", or "this is how it looks on my device now". Gather them, say what each shows and where it lives in the code, then act or hand off. Any platform.
+description: User shares screenshots (pasted, paths, Google Photos album) to show what's wrong, fixed or current; tie each to the code, then act.
 ---
 
 # Screenshot steering

@@ -1,6 +1,6 @@
 ---
 name: sprint-decomposition
-description: User narrates a fire hose of changes (bugs, features, docs, ideas) for a sprint; split it into separate items and record them in the repo's trackers, or offer to set trackers up or use a one-sprint scratchpad. Any platform.
+description: User narrates a batch of bugs, features, docs and ideas; split it into items and file them in the repo's trackers or a sprint scratchpad.
 ---
 
 # Sprint decomposition: fire hose in, tracked items out

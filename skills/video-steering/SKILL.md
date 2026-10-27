@@ -1,6 +1,6 @@
 ---
 name: video-steering
-description: User shares a screen recording or video of the app to show a bug, a flow or the current UI. Turn it into key frames plus a transcript of any narration, then handle it as screenshot steering. Any platform.
+description: User shares a screen recording; turn it into key frames plus a narration transcript, then handle it as screenshot steering.
 ---
 
 # Video steering

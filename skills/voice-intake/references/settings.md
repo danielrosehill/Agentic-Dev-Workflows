@@ -1,10 +1,12 @@
 # voice-intake settings
 
-Path: `~/.config/agentic-dev-workflows/voice-intake.json`. Per user, per machine, never committed.
+Path: `${CLAUDE_USER_DATA:-${XDG_DATA_HOME:-$HOME/.local/share}/claude-plugins}/agentic-dev-workflows/config.json`, key `voice_intake`
+(other skills keep their own keys in the same file; leave those alone). Per user, per machine,
+never committed.
 The plugin ships no defaults; everything here comes from the user.
 
 ```json
-{
+{"voice_intake": {
   "locations": [
     {"name": "dev notes", "type": "local", "path": "~/Recordings/dev-notes"},
     {"name": "phone uploads", "type": "gdrive", "folder_url": "https://drive.google.com/drive/folders/<id>", "access": "rclone remote 'gdrive:' | MCP server name | browser"}
@@ -16,7 +18,7 @@ The plugin ships no defaults; everything here comes from the user.
   },
   "commit_audio": "never | private-repos | always",
   "updated": "YYYY-MM-DD"
-}
+}}
 ```
 
 ## Filling it on first run

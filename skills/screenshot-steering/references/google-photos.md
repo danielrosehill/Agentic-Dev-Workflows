@@ -7,10 +7,11 @@ profile), whichever the session has.
 
 ## Album lookup
 
-Remember album names per repo in `~/.config/agentic-dev-workflows/screenshot-steering.json`:
+Remember album names per repo in `${CLAUDE_USER_DATA:-${XDG_DATA_HOME:-$HOME/.local/share}/claude-plugins}/agentic-dev-workflows/config.json`,
+key `screenshot_steering` (other keys in that file belong to other skills; leave them alone):
 
 ```json
-{"albums": {"<repo folder name>": "Hebrish App"}, "updated": "YYYY-MM-DD"}
+{"screenshot_steering": {"albums": {"<repo folder name>": "Hebrish App"}, "updated": "YYYY-MM-DD"}}
 ```
 
 When the user names an album, save or update the entry. When they say "the album" without a name,
