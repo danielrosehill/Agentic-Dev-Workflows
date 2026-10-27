@@ -1,7 +1,7 @@
 {
   "name": "agentic-dev-workflows",
-  "version": "0.2.0",
-  "description": "Cross-cutting workflows for developing software with AI agents, on any platform or stack: resolve a UI friction point by options-then-build, decompose a narrated sprint into tracked bugs, features, docs and ideas, set and pin a release pattern (sprint, release-to-test), and find complementary plugins.",
+  "version": "0.3.0",
+  "description": "Cross-cutting workflows for developing software with AI agents, on any platform or stack: take in a voice note as a transcript in the repo, decompose a narrated sprint into tracked bugs, features, docs and ideas, resolve a UI friction point by options-then-build, set and pin a release pattern (sprint, release-to-test), and find complementary plugins.",
   "author": {
     "name": "Daniel Rosehill",
     "url": "https://github.com/danielrosehill"
@@ -18,6 +18,8 @@
     "ci",
     "agentic-development",
     "backlog",
-    "issue-tracking"
+    "issue-tracking",
+    "voice-notes",
+    "transcription"
   ]
 }

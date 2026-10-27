@@ -14,7 +14,8 @@ Works in any repo: website, Android app, CLI, library.
 
 ## Inputs
 
-- The narration, in the user's words. Typed, pasted or transcribed.
+- The narration, in the user's words. Typed, pasted, or a voice note's `transcript-clean.md` from
+  `voice-intake`. Link that transcript from each item filed from it.
 - Optionally screenshots or URLs attached to particular items.
 
 ## Steps

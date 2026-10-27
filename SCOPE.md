@@ -17,6 +17,7 @@ Current skills, by area:
 
 | Area | Skills |
 | --- | --- |
+| Intake | `voice-intake` |
 | UI and UX | `ui-friction` |
 | Releases and sprints | `sprint-decomposition`, `release-pattern`, `pin-release-pattern` |
 | Discovery | `complementary-plugins` |
