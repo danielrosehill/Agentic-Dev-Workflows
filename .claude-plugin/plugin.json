@@ -1,0 +1,12 @@
+{
+  "name": "agentic-dev-workflows",
+  "version": "0.1.0",
+  "description": "Cross-cutting workflows for developing software with AI agents, on any platform or stack: resolve a UI friction point by options-then-build, set and pin a release pattern (sprint, release-to-test), and find complementary plugins.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "repository": "https://github.com/danielrosehill/Agentic-Dev-Workflows",
+  "license": "MIT",
+  "keywords": ["development", "workflow", "ui", "ux", "releases", "sprints", "ci", "agentic-development"]
+}

@@ -1,0 +1,25 @@
+# Agentic Dev Workflows
+
+Cross-cutting workflows for developing software with AI agents. Not tied to a platform: the same
+skills work in an Android app, a Linux tool, a web app or a CLI. Scope and the test for new skills:
+[SCOPE.md](SCOPE.md).
+
+## Skills
+
+| Skill | What it does |
+| --- | --- |
+| `ui-friction` | You describe a UI friction point; the agent proposes 3–5 distinct resolutions with effort and trade-offs, waits for your pick, then builds it. |
+| `release-pattern` | Sets how releases happen this session. Presets: **sprint** (commit and push freely, release only when you say the sprint is done) and **release-to-test** (release each change and test the released build on your own device). Or define a custom one. |
+| `pin-release-pattern` | Writes the release pattern into the repo's `CLAUDE.md` so every future session follows it. |
+| `complementary-plugins` | Suggests plugins that fit the current repo: platform tooling (Android, Linux packaging, KDE), QA, specs, planning, agent habits. |
+
+## Installation
+
+```bash
+claude plugins marketplace add danielrosehill/Claude-Code-Plugins
+claude plugins install agentic-dev-workflows@danielrosehill
+```
+
+## License
+
+MIT
