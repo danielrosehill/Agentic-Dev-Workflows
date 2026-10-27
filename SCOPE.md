@@ -18,7 +18,7 @@ Current skills, by area:
 | Area | Skills |
 | --- | --- |
 | UI and UX | `ui-friction` |
-| Releases and sprints | `release-pattern`, `pin-release-pattern` |
+| Releases and sprints | `sprint-decomposition`, `release-pattern`, `pin-release-pattern` |
 | Discovery | `complementary-plugins` |
 
 ## Out of scope
