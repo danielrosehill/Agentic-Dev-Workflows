@@ -18,7 +18,7 @@ Current skills, by area:
 | Area | Skills |
 | --- | --- |
 | Intake and steering | `voice-intake`, `screenshot-steering`, `video-steering` |
-| UI and UX | `ui-friction` |
+| UI and UX | `ui-review`, `ui-friction` |
 | Releases and sprints | `sprint-decomposition`, `release-pattern`, `pin-release-pattern` |
 | Discovery | `complementary-plugins` |
 

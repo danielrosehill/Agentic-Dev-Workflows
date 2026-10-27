@@ -8,6 +8,7 @@ skills work in an Android app, a Linux tool, a web app or a CLI. Scope and the t
 
 | Skill | What it does |
 | --- | --- |
+| `ui-review` | "Look at what we have and review it": the agent captures the running UI screen by screen (via the platform's route, e.g. `kde-agent-workspace` on KDE Wayland), reviews it for a focus (simplify, consistency, layout, copy, accessibility, first run), proposes changes, and builds what you pick. |
 | `ui-friction` | You describe a UI friction point; the agent proposes 3–5 distinct resolutions with effort and trade-offs, waits for your pick, then builds it. |
 | `release-pattern` | Sets how releases happen this session. Presets: **sprint** (commit and push freely, release only when you say the sprint is done) and **release-to-test** (release each change and test the released build on your own device). Or define a custom one. |
 | `pin-release-pattern` | Writes the release pattern into the repo's `CLAUDE.md` so every future session follows it. |

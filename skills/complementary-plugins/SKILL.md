@@ -28,6 +28,7 @@ Marketplace `danielrosehill` is `danielrosehill/Claude-Code-Plugins`
 | --- | --- | --- |
 | Android skills (Google, official) | from [android/skills](https://github.com/android/skills) | Android: `android` CLI, SDK, emulator, install and run APKs, screenshots, layout dumps |
 | `linux-packaging` | `claude plugins install linux-packaging@danielrosehill` | Linux: .deb and other package builds and publishing |
+| `kde-agent-workspace` | `claude plugins install kde-agent-workspace@danielrosehill` | KDE Plasma (Wayland): run, drive and screenshot a GUI app on the agent's own desktop; the capture route for `ui-review` |
 | `kde-plasmoid-dev` | `claude plugins install kde-plasmoid-dev@danielrosehill` | KDE Plasma widgets: scaffold, debug, package |
 | `userscript-development` | `claude plugins install userscript-development@danielrosehill` | Browser userscripts |
 | `dev-tools` | `claude plugins install dev-tools@danielrosehill` | Scaffold repos, multi-agent QA review (incl. a UX-friction audit agent), templatize |
