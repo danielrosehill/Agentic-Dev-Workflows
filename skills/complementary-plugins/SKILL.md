@@ -34,6 +34,7 @@ Marketplace `danielrosehill` is `danielrosehill/Claude-Code-Plugins`
 | `dev-tools` | `claude plugins install dev-tools@danielrosehill` | Scaffold repos, multi-agent QA review (incl. a UX-friction audit agent), templatize |
 | `spec-starter` | `claude plugins install spec-starter@danielrosehill` | Spec-driven start: free-form description → spec, context files, decision records |
 | `planning-docs` | `claude plugins install planning-docs@danielrosehill` | Lean decision log and plans in the repo |
+| `flow-control` | `claude plugins install flow-control@danielrosehill` | Capture and triage mid-task asks into sprints and backlog; plan sprints; gate releases until the sprint is done |
 | `stack-evaluator` | `claude plugins install stack-evaluator@danielrosehill` | Review a repo's technology stack and propose revisions |
 | `kaizen` | `claude plugins install kaizen@danielrosehill` | Incremental improvement of a mature codebase, one atomic commit at a time |
 | `session-hopper` | `claude plugins install session-hopper@danielrosehill` | Hand over and resume between agent sessions |
