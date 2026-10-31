@@ -42,7 +42,7 @@ and confirms the agent has understood before anything is built.
 5. **Act or hand off**, by the mix:
    - One clear wrong item: fix it, then verify on the same platform if the repo has a run or
      preview route.
-   - Several items, or bugs mixed with features: `sprint-decomposition`, with each item linking its
+   - Several items, or bugs mixed with features: flow-control's `capture`, with each item linking its
      screenshot.
    - Friction: `ui-friction`.
    - Only current state or fixed: no code change. Confirm in one line and carry on with the task.

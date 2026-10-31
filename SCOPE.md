@@ -19,7 +19,6 @@ Current skills, by area:
 | --- | --- |
 | Intake and steering | `voice-intake`, `screenshot-steering`, `video-steering` |
 | UI and UX | `ui-review`, `ui-friction` |
-| Releases and sprints | `sprint-decomposition`, `release-pattern`, `pin-release-pattern` |
 | Discovery | `complementary-plugins` |
 
 ## Out of scope
@@ -28,6 +27,9 @@ Current skills, by area:
   These live in their own plugins; `complementary-plugins` points to them.
 - **Code review and QA passes**: the `dev-tools` plugin.
 - **Specs and planning documents**: `spec-starter`, `planning-docs`.
+- **Backlog, sprints, triage and release timing**: the `flow-control` plugin (`capture`, `setup`,
+  `plan-sprint`, `ship-gate`, `next`). `sprint-decomposition`, `release-pattern` and
+  `pin-release-pattern` moved there on 2026-10-31.
 - **Agent habits that apply to all work, not just development** (documenting as you go, skill-or-not,
   Kaizen): their own plugins.
 - **Anything tied to one person's infrastructure** (their secrets store, registries, servers, devices).

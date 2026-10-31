@@ -62,6 +62,6 @@ and the agent finds the problems.
 
 - Review what is on screen, not what the code suggests should be there. If they differ (stale
   build, feature flag, platform-specific rendering), that is a finding.
-- Several findings worth tracking but not building now: offer `sprint-decomposition` in one line.
+- Several findings worth tracking but not building now: offer flow-control's `capture` in one line.
 - If the user's device would show a different layout than the capture (phone vs desktop), capture
   at that size or say the review doesn't cover it.

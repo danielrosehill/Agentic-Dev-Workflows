@@ -1,7 +1,7 @@
 {
   "name": "agentic-dev-workflows",
-  "version": "0.5.0",
-  "description": "Cross-cutting workflows for developing software with AI agents, on any platform or stack: take in voice notes, screenshots (incl. Google Photos albums) and screen recordings to steer the work, decompose a narrated sprint into tracked bugs, features, docs and ideas, review the running UI for a focus such as simplification, resolve a UI friction point by options-then-build, set and pin a release pattern, and find complementary plugins.",
+  "version": "0.6.0",
+  "description": "Cross-cutting workflows for developing software with AI agents, on any platform or stack: take in voice notes, screenshots (incl. Google Photos albums) and screen recordings to steer the work, review the running UI for a focus such as simplification, resolve a UI friction point by options-then-build, and find complementary plugins. Backlog, sprints and release timing moved to the flow-control plugin.",
   "author": {
     "name": "Daniel Rosehill",
     "url": "https://github.com/danielrosehill"
@@ -13,12 +13,8 @@
     "workflow",
     "ui",
     "ux",
-    "releases",
-    "sprints",
     "ci",
     "agentic-development",
-    "backlog",
-    "issue-tracking",
     "voice-notes",
     "transcription",
     "screenshots",

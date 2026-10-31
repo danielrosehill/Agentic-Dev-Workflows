@@ -8,7 +8,7 @@ description: Fetch a development voice note (saved location, path or Drive link)
 The user records a voice note about the project, then says something like "grab the latest voice
 note", "I put a note in the repo", or "here's a Drive link". This skill only **gathers**: it gets the
 audio, transcribes it, and files the transcript in the repo. The work happens in whichever skill
-comes next: `sprint-decomposition`, `ui-friction`, a bug-capture skill, a spec skill.
+comes next: flow-control's `capture`, `ui-friction`, a bug-capture skill, a spec skill.
 
 ## Inputs
 
@@ -69,14 +69,14 @@ development voice notes, which transcription route to use, and whether audio goe
 
    | The note is mostly | Hand off to |
    | --- | --- |
-   | A list of changes for a sprint (bugs, features, docs, ideas mixed) | `sprint-decomposition` |
-   | One or more bugs | the repo's bug-capture skill if it has one, else `sprint-decomposition` |
+   | A list of changes for a sprint (bugs, features, docs, ideas mixed) | flow-control's `capture` |
+   | One or more bugs | the repo's bug-capture skill if it has one, else flow-control's `capture` |
    | One UI friction point | `ui-friction` |
    | A new project or feature described end to end | a spec skill if available (e.g. `spec-starter`), else ask |
    | Debugging observations ("I tried X, then Y happened") | keep as context; start debugging from it |
    | None of these | report the transcript path and ask |
 
-   A note that mixes kinds (a spec plus five bugs) goes to `sprint-decomposition`, which splits it.
+   A note that mixes kinds (a spec plus five bugs) goes to flow-control's `capture`, which splits it.
 
 ## source.json
 
