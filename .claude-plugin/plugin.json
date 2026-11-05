@@ -1,6 +1,6 @@
 {
   "name": "agentic-dev-workflows",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Cross-cutting workflows for developing software with AI agents, on any platform or stack: take in voice notes, screenshots (incl. Google Photos albums) and screen recordings to steer the work, review the running UI for a focus such as simplification, resolve a UI friction point by options-then-build, and find complementary plugins. Backlog, sprints and release timing moved to the flow-control plugin.",
   "author": {
     "name": "Daniel Rosehill",

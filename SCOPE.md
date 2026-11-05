@@ -26,7 +26,7 @@ Current skills, by area:
 - **Platform or stack tooling** (Android SDK, Gradle, Debian packaging, KDE plasmoids, npm publishing).
   These live in their own plugins; `complementary-plugins` points to them.
 - **Code review and QA passes**: the `dev-tools` plugin.
-- **Specs and planning documents**: `spec-starter`, `planning-docs`.
+- **Specs and planning documents**: `spec-starter`, `dev-project-docs`.
 - **Backlog, sprints, triage and release timing**: the `flow-control` plugin (`capture`, `setup`,
   `plan-sprint`, `ship-gate`, `next`). `sprint-decomposition`, `release-pattern` and
   `pin-release-pattern` moved there on 2026-10-31.
